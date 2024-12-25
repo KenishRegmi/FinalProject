@@ -1,0 +1,124 @@
+
+.mathblast{
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+/* Math Game Container */
+.math-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.math-title {
+  font-size: 2.5rem;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+.math-subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.math-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Game Over Screen */
+.math-game-over {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.math-button {
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.math-button:hover {
+  background-color: #005f87;
+}
+
+/* Form and Input */
+.math-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.math-input {
+  padding: 10px;
+  font-size: 1.5rem;
+  width: 100px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  text-align: center;
+}
+
+.math-input:focus {
+  border-color: #0077b6;
+  box-shadow: 0 0 5px rgba(0, 119, 182, 0.6);
+}
+
+.math-button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #28a745;
+  font-size: 1.2rem;
+}
+
+.math-button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .math-container {
+    padding: 20px;
+  }
+
+  .math-title {
+    font-size: 2rem;
+  }
+
+  .math-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .math-text {
+    font-size: 1rem;
+  }
+
+  .math-input {
+    font-size: 1.2rem;
+    width: 80px;
+  }
+
+  .math-button {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+}

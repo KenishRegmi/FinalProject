@@ -1,0 +1,127 @@
+
+  .science{
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Main quiz container */
+  .science-quiz-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .science-quiz-title {
+    font-size: 2.5rem;
+    color: #2ecc71;
+    margin-bottom: 20px;
+  }
+  
+  /* Question container */
+  .science-question-container {
+    margin-bottom: 20px;
+  }
+  
+  .science-question {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Options container */
+  .science-options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .science-option-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .science-option-button:hover {
+    background-color: #27ae60;
+  }
+  
+  .science-correct-answer {
+    background-color: #28a745;
+  }
+  
+  .science-incorrect-answer {
+    background-color: #e74c3c;
+  }
+  
+  /* Score display */
+  .science-score {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Game Over screen */
+  .science-game-over {
+    text-align: center;
+  }
+  
+  .science-game-over h2 {
+    font-size: 2rem;
+    color: #e74c3c;
+  }
+  
+  .science-game-over p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .science-restart-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .science-restart-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .science-quiz-container {
+      padding: 20px;
+    }
+  
+    .science-quiz-title {
+      font-size: 2rem;
+    }
+  
+    .science-question {
+      font-size: 1.5rem;
+    }
+  
+    .science-option-button {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }
+  

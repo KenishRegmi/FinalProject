@@ -1,0 +1,125 @@
+/* FlagGuesser.css */
+
+.flag{
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.flag-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.flag-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.flag-question {
+  margin-bottom: 20px;
+}
+
+.flag-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flag-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.flag-option {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.flag-option:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.flag-option:active {
+  background-color: #003f7f;
+}
+
+.flag-score,
+.flag-attempts {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.flag-game-over h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.flag-game-over p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.flag-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.flag-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.flag-button:active {
+  background-color: #1e7e34;
+}
+
+@media (max-width: 600px) {
+  .flag-container {
+    padding: 20px;
+  }
+
+  .flag-options {
+    gap: 5px;
+  }
+
+  .flag-option {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .flag-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}

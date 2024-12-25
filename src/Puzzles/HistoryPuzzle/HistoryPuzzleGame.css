@@ -1,0 +1,126 @@
+
+ .history{
+    font-family: "Arial", sans-serif;
+    background-color: #faf3e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Main container */
+  .history-puzzle-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .history-puzzle-title {
+    font-size: 2.5rem;
+    color: #8e44ad;
+    margin-bottom: 20px;
+  }
+  
+  .history-puzzle-score {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Question container */
+  .history-question-container {
+    margin-bottom: 20px;
+  }
+  
+  .history-question {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Options container */
+  .history-options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .history-option-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .history-option-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .history-correct-answer {
+    background-color: #27ae60 !important;
+  }
+  
+  .history-incorrect-answer {
+    background-color: #e74c3c !important;
+  }
+  
+  /* Game Over section */
+  .history-game-over {
+    text-align: center;
+  }
+  
+  .history-game-over h2 {
+    font-size: 2rem;
+    color: #c0392b;
+  }
+  
+  .history-game-over p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .history-restart-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .history-restart-button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .history-puzzle-container {
+      padding: 20px;
+    }
+  
+    .history-puzzle-title {
+      font-size: 2rem;
+    }
+  
+    .history-question {
+      font-size: 1.5rem;
+    }
+  
+    .history-option-button {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }
+  

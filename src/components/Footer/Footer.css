@@ -1,0 +1,142 @@
+/* Footer container */
+.foot-main {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    padding-left: 10%; /* Added left padding to balance space */
+    padding-right: 10%; /* Added right padding to balance space */
+  }
+  
+  /* Footer sections */
+  footer {
+    display: flex;
+    justify-content: space-evenly; /* Evenly spaced columns */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 40px;
+    flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+    width: 100%;
+    max-width: 1200px; /* Set a max-width to keep the footer content within a reasonable width */
+    margin-left: auto; /* Center the footer */
+    margin-right: auto; /* Center the footer */
+  }
+  
+  /* Individual columns */
+  .footer-col-one, .footer-col-two, .footer-col-three, .footer-col-four {
+    flex: 1; /* Allow columns to take equal space */
+    padding: 0 15px; /* Space out content */
+    margin: 10px; /* Equal margin between columns */
+    text-align: left;
+  }
+  
+  /* Footer column headings */
+  .footer-col-one h1, .footer-col-two h1, .footer-col-three h1, .footer-col-four h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff; /* White color for headings */
+  }
+  
+  /* Learn with Fun section styles */
+  .footer-col-one p {
+    color: #fff; /* White color for paragraph */
+    margin-bottom: 15px;
+  }
+  
+  /* Subscribe input and button styling */
+  .enter {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px; /* Gap between input and button */
+    color: #fff;
+    background-color: #444; /* Dark background for input */
+  }
+  
+  .subs {
+    padding: 10px 20px;
+    background-color: #f39c12; /* Orange background for the button */
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subs:hover {
+    background-color: #e67e22; /* Darker orange on hover */
+  }
+  
+  /* Footer links */
+  .footer-col-three ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-col-three li, .footer-col-two div p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col-three a, .footer-col-two div p {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-col-three a:hover, .footer-col-two div p:hover {
+    color: #f39c12; /* Yellow color on hover */
+  }
+  
+  /* Download links styling */
+  .footer-col-two div p {
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-col-two div p:hover {
+    color: #f39c12; /* Yellow color on hover */
+  }
+  
+  /* Social icons */
+  .footer-col-four img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-col-four img:hover {
+    transform: scale(1.2); /* Increase size on hover */
+  }
+  
+  /* Footer paragraph at the bottom */
+  .foot-para {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .foot-para p {
+    color: #fff; /* White text below Learn with Fun */
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  .foot-para a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .foot-para a:hover {
+    text-decoration: underline;
+  }
+  

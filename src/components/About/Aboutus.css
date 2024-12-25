@@ -1,0 +1,106 @@
+
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* About Us Section */
+  .about-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 250px; /* Makes the boxes responsive */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #4a90e2;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Box 1 - Learn With Fun */
+  .box1 {
+    background-color: #eaf6ff;
+  }
+  
+  .box1 h1 {
+    font-size: 2.5rem;
+    color: #4a90e2;
+  }
+  
+  /* Box 2 - Key Features */
+  .box2 {
+    background-color: #e7f7ff;
+  }
+  
+  .box2 p {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  /* Box 3 - Why Choose Us */
+  .box3 {
+    background-color: #f4f8fe;
+  }
+  
+  /* Box 4 - Who It's For */
+  .box4 {
+    background-color: #f0f8ff;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 0.95rem;
+    }
+  }
+  
